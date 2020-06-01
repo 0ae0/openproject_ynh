@@ -28,7 +28,7 @@ db_pwd=$(ynh_string_random)	# Generate a random password
 db_user=$db_name
 admin_email=$(ynh_user_get_info $admin 'mail')
 final_path="/var/www/$app"
-_homedir="/home/$app/"
+_homedir="/home/$app/" # /home/ seems to be the default path for other apps 
 _openproject_install_dat="/etc/openproject/installer.dat"
 
 
