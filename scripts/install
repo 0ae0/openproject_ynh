@@ -17,6 +17,7 @@ ynh_abort_if_errors
 # and declaration sequencing issues.
 # Arguments from Manifest
 domain=$YNH_APP_ARG_DOMAIN
+admin=$YNH_APP_ARG_ADMIN
 path_url=$YNH_APP_ARG_PATH
 is_public=$YNH_APP_ARG_IS_PUBLIC
 language=$YNH_APP_ARG_LANGUAGE
